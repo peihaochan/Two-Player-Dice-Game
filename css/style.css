@@ -1,0 +1,58 @@
+body {
+    background-image: url(/img/background.jpeg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-repeat: no-repeat;
+    background-position: center center;  */
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.playerOneContainer {
+    position: fixed;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+}
+
+.playerTwoContainer {
+    position: fixed;
+    right: 20%;
+    top: 20%;
+    text-align: center;
+    /* margin-right: 10px;
+    margin-top: 100px; */
+}
+
+.centralButtons {
+  /* display: flex; */
+  /* justify-content: center; */
+  position: fixed;
+  top: 30%;
+  left: 43%;
+  text-align: center;
+}
+
+img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+} 
+
+button {
+    border-radius: 30px; 
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background: #0099cc; 
+    background: -webkit-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+}
+
